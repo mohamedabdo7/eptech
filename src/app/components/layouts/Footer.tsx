@@ -4,6 +4,7 @@ import React from "react";
 import { Facebook, Linkedin, Youtube } from "lucide-react";
 import { motion } from "framer-motion";
 import { Card, CardContent } from "@/components/ui/card";
+import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -24,7 +25,9 @@ const Footer = () => {
               transition={{ delay: 0.2, duration: 0.6 }}
             >
               <div className="flex items-center mb-4">
-                <img
+                <Image
+                  width={100}
+                  height={100}
                   src="/icons/logo.svg"
                   alt="EPTEC Logo"
                   className="h-10 w-auto transition-transform duration-300 hover:scale-110"

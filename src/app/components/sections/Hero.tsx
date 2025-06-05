@@ -152,10 +152,10 @@ const HeroSection = () => {
                 animate={{ opacity: 1 }}
                 transition={{ delay: 1.2, duration: 0.8 }}
               >
-                "Crafting digital experiences that captivate audiences and drive
+                Crafting digital experiences that captivate audiences and drive
                 measurable results. From concept to launch, we transform your
                 brand vision into powerful web solutions that engage, convert,
-                and scale with your business growth."
+                and scale with your business growth.
               </motion.p>
             </motion.div>
           </motion.div>

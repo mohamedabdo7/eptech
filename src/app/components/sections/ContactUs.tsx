@@ -2,7 +2,6 @@
 
 import { motion, useInView } from "framer-motion";
 import { useRef, useState } from "react";
-import { Label } from "@/components/ui/label";
 import { Card, CardContent } from "@/components/ui/card";
 import { Phone, Mail, MapPin, LucideIcon } from "lucide-react";
 import { Input } from "../common/Input";
@@ -233,7 +232,7 @@ export default function ContactSection() {
                   to help you and
                 </span>
                 <span className="block text-3xl sm:text-4xl md:text-[48px] text-primary">
-                  answer your
+                  answer you are
                 </span>
                 <span className="block text-3xl sm:text-4xl md:text-[48px] text-primary">
                   questions
@@ -247,7 +246,7 @@ export default function ContactSection() {
               transition={{ delay: 0.6, duration: 0.6 }}
             >
               <h3 className="text-lg md:text-xl font-semibold text-white mb-4">
-                Let's talk
+                Let&apos;s talk{" "}
               </h3>
               <motion.div variants={containerVariants} className="space-y-3">
                 {contactInfo.map((item, index) => (

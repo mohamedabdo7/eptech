@@ -3,6 +3,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import SectionHeader from "../common/SectionHeader";
+import Image from "next/image";
 
 // Define the service data type
 interface Service {
@@ -110,8 +111,10 @@ const OurServices: React.FC = () => {
                     className="mb-6 inline-flex"
                   >
                     <div className="p-3 rounded-xl">
-                      <img
+                      <Image
                         src={service.icon}
+                        width={32}
+                        height={32}
                         alt={`${service.title} icon`}
                         className="h-8 w-8 opacity-90 group-hover:opacity-100 transition-opacity duration-300"
                       />

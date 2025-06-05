@@ -1,12 +1,9 @@
-import { Input } from "@/app/components/common/Input";
-import { Textarea } from "@/app/components/common/Textarea";
 import AiToolsSection from "@/app/components/sections/AiToolsSection";
 import ContactSection from "@/app/components/sections/ContactUs";
 import Hero from "@/app/components/sections/Hero";
 import OurServices from "@/app/components/sections/OurServices";
 import { PortfolioSection } from "@/app/components/sections/Portfolio";
 import TestimonialsSection from "@/app/components/sections/TestimonialsSection";
-import { Mail, Search, User } from "lucide-react";
 import React from "react";
 
 const page = () => {
