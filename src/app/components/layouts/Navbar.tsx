@@ -224,17 +224,6 @@ const Navbar = () => {
                     </motion.div>
                   ))}
                 </div>
-
-                {/* Mobile Menu Footer */}
-                <div className="p-6 border-t border-white/10">
-                  <motion.button
-                    whileHover={{ scale: 1.02 }}
-                    whileTap={{ scale: 0.98 }}
-                    className="w-full bg-gradient-to-r from-primary to-blue-500 text-white font-semibold py-3 px-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300"
-                  >
-                    Get Started
-                  </motion.button>
-                </div>
               </div>
             </motion.div>
           </>
